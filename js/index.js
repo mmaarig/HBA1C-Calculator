@@ -13,3 +13,11 @@ function myFunction() {
     //document.write("Your HBA1C is probably: ",dcct,"%<br><br>") //printing the Number
     document.getElementById("demo2").innerHTML = "Your Average Blood Sugar in mg/dl is probably: "+mgdl;
     }
+
+function myFunction3() {
+    var basic = prompt("Please Enter Your Basic Salary ") //user input for Hourly Overtime result
+    var ot = ((basic/26)/8)*(Number(2))
+    ot = ot.toFixed(0) //limiting decimals to 2 digits
+    //document.write("Your Overtime is probably: ",dcct,"%<br><br>") //printing the Number
+    document.getElementById("demo3").innerHTML = "Your Overtime is probably: "+ot;
+    }
